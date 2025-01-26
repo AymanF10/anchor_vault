@@ -58,7 +58,6 @@ pub fn deposit(ctx: Context<Payment>, amount: u64) -> Result<()> {
     Ok(())
 }
 ```
-
 ### Withdraw
 The `withdraw` function enables users to withdraw SOL from their vault back to their account.
 
@@ -68,7 +67,6 @@ pub fn withdraw(ctx: Context<Payment>, amount: u64) -> Result<()> {
     Ok(())
 }
 ```
-
 ### Close
 The `close` function allows users to close their vault account and transfer any remaining SOL back to their wallet.
 
